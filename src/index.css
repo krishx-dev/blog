@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .prose-content h2 {
+    @apply text-2xl font-bold text-gray-900 mt-10 mb-4 border-b border-gray-100 pb-2;
+  }
+
+  .prose-content h3 {
+    @apply text-xl font-semibold text-gray-800 mt-7 mb-3;
+  }
+
+  .prose-content p {
+    @apply text-gray-700 leading-relaxed mb-5 text-base;
+  }
+
+  .prose-content ul {
+    @apply list-disc pl-6 mb-5 space-y-2 text-gray-700;
+  }
+
+  .prose-content ol {
+    @apply list-decimal pl-6 mb-5 space-y-2 text-gray-700;
+  }
+
+  .prose-content li {
+    @apply leading-relaxed;
+  }
+
+  .prose-content strong {
+    @apply font-semibold text-gray-900;
+  }
+
+  .prose-content blockquote {
+    @apply border-l-4 border-indigo-500 pl-5 py-1 my-6 bg-indigo-50 rounded-r-lg text-indigo-900 italic text-base;
+  }
+
+  .prose-content .tool-card {
+    @apply bg-gray-50 border border-gray-200 rounded-xl p-5 mb-5;
+  }
+
+  .prose-content .highlight-box {
+    @apply bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100 rounded-xl p-6 my-6;
+  }
+}
+
+/* Ad placeholder style */
+.ad-placeholder {
+  @apply bg-gray-100 border border-dashed border-gray-300 rounded-lg flex items-center justify-center text-gray-400 text-sm font-medium;
+}
+
+/* Tag badge */
+.tag-badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase;
+}
+
+/* Sticky nav shadow on scroll */
+.nav-scrolled {
+  box-shadow: 0 1px 20px rgba(0,0,0,0.08);
+}
