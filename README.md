@@ -59,7 +59,3 @@ When you are ready to go live:
 - **Content Security Policy (CSP)**: Pre-configured to allow trusted Google AdSense scripts only.
 - **Honeypot Protection**: Built into the contact form to prevent automated spam bot submissions.
 - **HTTPS Enforcement**: Meta tags included to upgrade insecure requests automatically.
-
----
-
-*Note: This project is provided as a professional template. Please ensure you review all legal content (Privacy Policy/Terms) to ensure compliance with your specific jurisdiction before publishing.*
